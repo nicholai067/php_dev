@@ -1,0 +1,43 @@
+CRITICAL - 2021-07-03 04:15:56 --> App\Controllers\Users::index(): Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-03 04:16:42 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-03 04:16:44 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-03 04:38:50 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\Codeigniter\codeigniter4login-master\app\Controllersvendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-03 04:39:44 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\Codeigniter\codeigniter4login-master\app\Controllersvendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-03 04:41:15 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\Codeigniter\codeigniter4login-master\app\Controllersvendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-03 04:41:15 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\Codeigniter\codeigniter4login-master\app\Controllersvendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-03 04:43:55 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\Codeigniter\codeigniter4login-master\app\Controllersvendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-03 11:44:49 --> Undefined variable: url
+#0 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\app\Controllers\Users.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-03 11:45:17 --> trim() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'trim() expects ...', 'C:\\xampp\\htdocs...', 1078, Array)
+#1 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\vendor\phpmailer\phpmailer\src\PHPMailer.php(1078): trim(Object(PHPMailer\PHPMailer\PHPMailer))
+#2 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\vendor\phpmailer\phpmailer\src\PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', Object(PHPMailer\PHPMailer\PHPMailer), 'adf')
+#3 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\app\Controllers\Users.php(51): PHPMailer\PHPMailer\PHPMailer->addAddress(Object(PHPMailer\PHPMailer\PHPMailer), 'adf')
+#4 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Users->index()
+#5 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeigniter\codeigniter4login-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
